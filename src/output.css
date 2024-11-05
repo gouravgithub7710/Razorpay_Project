@@ -630,6 +630,10 @@ video {
   z-index: -10;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -662,10 +666,6 @@ video {
   z-index: 9;
 }
 
-.z-0 {
-  z-index: 0;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -674,6 +674,11 @@ video {
 .my-14 {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mb-24 {
@@ -704,6 +709,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .mt-\[190px\] {
   margin-top: 190px;
 }
@@ -732,6 +741,10 @@ video {
   height: 0.25rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -756,10 +769,6 @@ video {
   height: 100%;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .max-h-\[300px\] {
   max-height: 300px;
 }
@@ -770,6 +779,10 @@ video {
 
 .min-h-\[520px\] {
   min-height: 520px;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-10\/12 {
@@ -820,12 +833,12 @@ video {
   width: 100%;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
 .max-w-\[1080px\] {
   max-width: 1080px;
+}
+
+.max-w-\[450px\] {
+  max-width: 450px;
 }
 
 .max-w-\[500px\] {
@@ -867,12 +880,12 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -927,8 +940,8 @@ video {
   gap: 1rem;
 }
 
-.gap-y-6 {
-  row-gap: 1.5rem;
+.gap-\[2rem\] {
+  gap: 2rem;
 }
 
 .gap-x-4 {
@@ -938,6 +951,10 @@ video {
 
 .gap-y-10 {
   row-gap: 2.5rem;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1155,6 +1172,11 @@ video {
   line-height: 2rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -1176,6 +1198,11 @@ video {
   font-size: 40px;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1183,16 +1210,6 @@ video {
 
 .text-xl {
   font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -1206,6 +1223,10 @@ video {
 
 .leading-10 {
   line-height: 2.5rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .leading-7 {
@@ -1261,6 +1282,10 @@ video {
 
 .opacity-70 {
   opacity: 0.7;
+}
+
+.opacity-80 {
+  opacity: 0.8;
 }
 
 .transition-all {
